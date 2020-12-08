@@ -1,0 +1,12 @@
+<b id="seleksi">Cari anjing favorit anda :</b>
+<br>
+<input id="kunci" type="text" ng-model='seleksi' placeholder="cari disini">
+</select>
+<div ng-controller="operasi" class="gbr">
+  <div ng-repeat='g in gambar | filter: seleksi'>
+    <figure>
+      <img src="gambar/{{g}}.jpg" alt="gambar {{g}}">
+      <figcaption>gambar anjing : {{g}}</figcaption>
+    </figure>
+  </div>
+</div>
