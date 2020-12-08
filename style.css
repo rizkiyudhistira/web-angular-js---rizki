@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f6c67d;
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+      background: #f6c67d;
+   }
+}
+@media only screen and (min-width: 600px) {
+   body {
+      background: #f6c67d;
+   }
+}
+@media only screen and (min-width: 768px) {
+   body {
+      background: #f6c67d;
+   }
+}
+@media only screen and (min-width: 992px) {
+   body {
+      background: #f6c67d;
+   }
+}
+@media only screen and (min-width: 1200px) {
+   body {
+      background: #f6c67d;
+   }
+}
+
+header {
+  background: rgb(238, 249, 237);
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header > img {
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+header > i {
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+  color: grey;
+  font-family: sans;
+}
+
+.menu {
+  width:33.33%;
+  background: grey;
+  display: block;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  border-left: 1px rgb(14, 97, 27) solid;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+}
+
+.menu:hover {
+  background: orange;
+}
+
+footer {
+  height: 30px;
+  background: grey;
+  color: white;
+  font-size: 12px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+.gp {
+  width: 100%;
+  height: 350px;
+}
+
+.profile {
+  background: url(gambar/logo2.png) rgb(202, 209, 202);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.judul {
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.judul > #judul1 {
+  color: orange;
+}
+
+.judul > #judul2 {
+  color: blue;
+}
+
+.profile > p {
+  font-size: 12px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+}
+
+figure > img {
+  width: 50%;
+  float: left;
+  height: 200px;
+}
+
+figure > figcaption {
+  background: orange;
+  float: left;
+  margin-left: -50%;
+}
+
+#seleksi {
+  margin-left: 10px;
+  color: green;
+  font-size: 12px;
+}
+
+#kunci {
+  background: rgb(248, 241, 250);
+  border: 1px solid grey;
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.about1 {
+  background: white;
+  height: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.about1 > b , .about2 > b , .about3 > b{
+  font-size: 20px;
+  padding-top: 10px;
+  display: block;
+}
+
+.about1 > i , .about2 > i, .about3 > i{
+  font-size: 18px;
+}
+
+.about2 {
+  background: rgb(242, 219, 245);
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  height: 300px;
+}
+
+.about3 {
+  background: orange;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  float: left;
+  height: 300px;
+}
+
+.about3 > img {
+  height: 50px;
+  width: 75px;
+}
+
+.about4 {
+  background: black;
+  text-align: center;
+}
+
+.about4 > img {
+  height: 35px;
+}
