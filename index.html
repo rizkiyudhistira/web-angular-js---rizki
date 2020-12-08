@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html  ng-app="mainApp">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Angular Rizki</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/angular.min.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/script.js"></script>
+  <base href="/">
+</head>
+<body>
+  <header>
+    <img src="gambar/doglogo.jpg" />
+    <i>"Funky dog collection sahabat setia pilihan anda"</i>
+  </header>
+  <a class='menu' href="/">Home</a>
+  <a class='menu' href="/galeri">Gallery</a>
+  <a class='menu' href="/about">Hubungi Kami</a>
+  <div ng-view></div>
+  <footer>Copyright (c) 2020 Funky Dog Collection All Rights Reserved.</footer>
+</body>
+</html>
